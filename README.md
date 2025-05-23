@@ -3,12 +3,12 @@
 Bienvenue sur mon portfolio !  
 Je m'appelle **Arthur Delacour**, étudiant à **Holberton School** en spécialité **AR/VR**, passionné par la **réalité virtuelle**, la **création d’expériences immersives** et le **développement de jeux vidéo**.
 
-## 🎮 À propos de moi
+## À propos de moi
 
 Je poursuis actuellement mes études avec pour objectif un **bac +5**, en vue d'intégrer l'industrie du jeu vidéo en tant que **développeur**.  
 Je suis particulièrement attiré par les technologies immersives et leur potentiel à transformer notre façon de jouer, d'apprendre et de communiquer.
 
-## 🚀 Ce que vous trouverez ici
+## Ce que vous trouverez ici
 
 Mon portfolio met en avant une sélection de projets réalisés dans le cadre de ma formation et en autodidacte. Chaque projet illustre ma progression, ma créativité et mes compétences techniques, notamment dans les domaines suivants :
 
@@ -20,7 +20,7 @@ Mon portfolio met en avant une sélection de projets réalisés dans le cadre de
 - Expériences interactives immersives
 - Developpement Web via Symfony
 
-## 🛠️ Technologies et outils
+## Technologies et outils
 
 - Unity / Unreal Engine
 - C#, C++
@@ -29,13 +29,13 @@ Mon portfolio met en avant une sélection de projets réalisés dans le cadre de
 - XR Interaction Toolkit
 - OpenXR, WebXR
 
-## 🌐 Lien vers mon site
+## Lien vers mon site
 
-👉 [Mon portfolio en ligne](https://arthurdelacour.alwaysdata.net/)
+ [Mon portfolio en ligne](https://arthurdelacour.alwaysdata.net/)
 
 ---
 
 Merci de visiter mon portfolio !  
 N'hésitez pas à me contacter pour toute collaboration, stage ou retour sur mes projets.
 
-📫 *Contact : [delacour.a1109@gmail.com]*
+ *Contact : [delacour.a1109@gmail.com]*
