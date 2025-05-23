@@ -1,0 +1,124 @@
+/* === NAVBAR & MENU BURGER === */
+.nav {
+    position: sticky    ;           /* 👈 rend la barre fixe */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1001;
+    background: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    pointer-events: none; /* Empêche les clics sur le titre */
+}
+
+/* === LOGO PLACEHOLDER === */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* === HAMBURGER BUTTON === */
+.menu-toggle {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1002;
+}
+
+.menu-toggle .bar,
+.menu-toggle::before,
+.menu-toggle::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-toggle .bar {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.menu-toggle::before {
+    top: 12px;
+}
+
+.menu-toggle::after {
+    bottom: 12px;
+}
+
+.menu-toggle.active .bar {
+    background: transparent;
+}
+
+.menu-toggle.active::before {
+    transform: rotate(45deg);
+    top: 50%;
+}
+
+.menu-toggle.active::after {
+    transform: rotate(-45deg);
+    bottom: 50%;
+}
+
+/* === MENU OVERLAY === */
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    clip-path: circle(0% at 0 0);
+    transition: clip-path 0.6s ease-in-out;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-overlay.open {
+    clip-path: circle(150% at 0 0);
+}
+
+/* === MENU LINKS === */
+.menu ul {
+    list-style: none;
+    text-align: center;
+}
+
+.menu ul li {
+    margin: 20px 0;
+}
+
+.menu ul li a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: #00adef;
+}
